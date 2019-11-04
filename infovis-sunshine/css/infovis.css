@@ -1,0 +1,79 @@
+/*-----------------------------------------------*/
+/* DISTRIBUCIONES DE PROBABILIDAD CSS Stylesheet */
+/*-----------------------------------------------*/
+
+.custom-range {
+    width: 50%;
+}
+
+.table th, td {
+    text-align: center;   
+ }
+
+.padding-tb-5 {
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+
+ .padding-tb-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ .padding-t-10 {
+    padding-top: 10px;
+}
+
+ .padding-t-15 {
+    padding-top: 15px;
+}
+
+.padding-tb-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.padding-lr-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*.lbl-Q1 {
+    color: rgb(206, 195, 180);
+    font-weight: bold; 
+}
+
+.lbl-Q2 {
+    color: rgb(192, 140, 72);
+    font-weight: bold; 
+}
+
+.lbl-Q3 {
+    color: goldenrod;
+    font-weight: bold; 
+}
+
+.lbl-Q4 {
+    color: rgb(219, 95, 13);
+    font-weight: bold; 
+}*/
+
+.sc1 {
+    background-color: #FFFFB7; 
+}
+
+.sc2 {
+    background-color: #FFF192; 
+}
+
+.sc3 {
+    background-color: #FFEA61; 
+}
+
+.sc4 {
+    background-color: #FFDD3C; 
+}
+
+.sc5 {
+    background-color: #FFD400; 
+}
