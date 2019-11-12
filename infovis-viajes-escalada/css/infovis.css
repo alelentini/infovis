@@ -1,0 +1,79 @@
+/*-----------------------------------------------*/
+/* DISTRIBUCIONES DE PROBABILIDAD CSS Stylesheet */
+/*-----------------------------------------------*/
+
+.custom-range {
+    width: 50%;
+}
+
+.table th, td {
+    text-align: center;   
+ }
+
+.padding-tb-5 {
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+
+ .padding-tb-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ .padding-t-10 {
+    padding-top: 10px;
+}
+
+ .padding-t-15 {
+    padding-top: 15px;
+}
+
+.padding-tb-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.padding-lr-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mf-1 {
+    font-size: 200%;
+    font-style: bold; !important
+    padding-bottom: 0px;
+}
+
+.mf-2 {
+    font-size: 150%;
+    font-style: bold;
+}
+
+.vis-timeline {
+    border: 0px;
+}
+
+.vis-item.vis-box {
+    font-size: 80%;
+    border-radius: 10px;
+}
+
+.vis-item.ti-1 {
+    background-color: #ccccff;
+    border-color: #ccccff;
+}
+
+.vis-item.ti-2 {
+    background-color: #e6ffcc;
+    border-color: #e6ffcc;
+}
+
+.vis-item.ti-3 {
+    background-color: #ffddcc;
+    border-color: #ffddcc;
+}
+
+.vis-item.ti-4 {
+    background-color: #ffccff;
+    border-color: #ffccff;
+}

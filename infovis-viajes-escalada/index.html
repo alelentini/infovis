@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<title>infovis - 33 Viajes de Escalada</title>
+		<!-- Browser Icon -->
+		<link rel='shortcut icon' type='image/png' href='images/icon.png'>
+		<!-- Bootstrap CSS -->
+		<link rel='stylesheet' type='text/css' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+		<!-- Vis.js CSS -->
+		<link rel="stylesheet" type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-timeline-graph2d.min.css'>
+		<!-- Custom CSS -->
+		<link rel='stylesheet' type='text/css' href='css/infovis.css'>
+	</head>
+
+	<body onload='initVis()' style='font-family:Calibri'>
+		<div class='container-fluid'>
+			<!-- Versión 1 -->
+			<div class="accordion" id="menu">
+				<div class="card">
+					<div class="card-header" id="heading1">
+						<h2 class="mb-0">
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+								Versión 1: HTML/JavaScript
+							</button>
+						</h2>
+					</div>
+					<div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#menu">
+						<div class="card-body">
+					  		<!-- Introduction -->
+							<div class='padding-tb-15' id='intro'>
+								<h2><strong></stroing>33 Viajes de Escalada</strong></h2>
+							</div>
+							<!-- Main Figures -->
+							<div class='row padding-tb-15' id='main_figures'>
+								<div class='col-3'>
+									<p class='mf-1 d-flex justify-content-center mb-0'>6</p>
+									<p class='mf-2 d-flex justify-content-center'>Años</p>
+									<table class='table table-sm table-borderless' style='width:50%;margin:auto'>
+										<tbody>
+											<tr><td class='text-left'>2013</td><td class='text-right'>5</td></tr>
+											<tr><td class='text-left'>2014</td><td class='text-right'>5</td></tr>
+											<tr><td class='text-left'>2015</td><td class='text-right'>9</td></tr>
+											<tr><td class='text-left'>2016</td><td class='text-right'>9</td></tr>
+											<tr><td class='text-left'>2017</td><td class='text-right'>2</td></tr>
+											<tr><td class='text-left'>2018</td><td class='text-right'></td></tr>
+											<tr><td class='text-left'>2019</td><td class='text-right'>3</td></tr>
+										</tbody>
+									</table>
+								</div>
+								<div class='col-3'>
+									<p class='mf-1 d-flex justify-content-center mb-0'>4</p>
+									<p class='mf-2 d-flex justify-content-center'>Provincias</p>
+									<table class='table table-sm table-borderless' style='width:50%;margin:auto'>
+										<tbody>
+											<tr><td class='text-left'>Buenos Aires</td><td class='text-right'>25</td></tr>
+											<tr><td class='text-left'>Córdoba</td><td class='text-right'>3</td></tr>
+											<tr><td class='text-left'>Mendoza</td><td class='text-right'>3</td></tr>
+											<tr><td class='text-left'>Chubut</td><td class='text-right'>2</td></tr>
+										</tbody>
+									</table>
+								</div>
+								<div class='col-3'>
+									<p class='mf-1 d-flex justify-content-center mb-0'>12</p>
+									<p class='mf-2 d-flex justify-content-center'>Escuelas</p>
+									<table class='table table-sm table-borderless' style='width:50%;margin:auto'>
+										<tbody>
+											<tr><td class='text-left'>Difuntos</td><td class='text-right'>10</td></tr>
+											<tr><td class='text-left'>La Vigilancia</td><td class='text-right'>9</td></tr>
+											<tr><td class='text-left'>Picapedrero</td><td class='text-right'>4</td></tr>
+											<tr><td class='text-left'>Arenales</td><td class='text-right'>3</td></tr>
+											<tr><td class='text-left'>Gigantes</td><td class='text-right'>2</td></tr>
+											<tr><td class='text-left'>Piedra Parada</td><td class='text-right'>2</td></tr>
+											<tr><td class='text-left'>El Santuario</td><td class='text-right'>1</td></tr>
+											<tr><td class='text-left'>La Barrosa</td><td class='text-right'>1</td></tr>
+											<tr><td class='text-left'>La Frazada</td><td class='text-right'>1</td></tr>
+											<tr><td class='text-left'>Los Mogotes</td><td class='text-right'>1</td></tr>
+											<tr><td class='text-left'>Nogales</td><td class='text-right'>1</td></tr>
+											<tr><td class='text-left'>Paredones</td><td class='text-right'>1</td></tr>
+											<tr><td class='text-left'>Tres Picos</td><td class='text-right'>1</td></tr>
+										</tbody>
+									</table>
+								</div>
+								<div class='col-3'>
+									<p class='mf-1 d-flex justify-content-center mb-0'>40,214</p>
+									<p class='mf-2 d-flex justify-content-center'>Km recorridos</p>
+									<table class='table table-sm table-borderless' style='width:50%;margin:auto'>
+										<tbody>
+											<tr><td class='text-left'>Auto</td><td class='text-right'>32,374</td></tr>
+											<tr><td class='text-left'>Micro + Auto</td><td class='text-right'>4,440</td></tr>
+											<tr><td class='text-left'>Avión + Auto</td><td class='text-right'>3,400</td></tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<!-- Timeline -->
+							<div class='padding-tb-15' id='timeline'></div>	
+							<!-- Map -->
+							<div class='padding-tb-15' id='timeline'></div>
+						</div>
+				  	</div>
+				</div>
+			</div>
+			<!-- Versión 2 -->
+			<div class="accordion" id="menu">
+					<div class="card">
+						<div class="card-header" id="heading2">
+							<h2 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+									Versión 2: Infografía
+								</button>
+							</h2>
+						</div>
+						<div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#menu">
+							<div class="card-body">
+								<img src="images\viajes-escalada.svg" style="width:100%;height:100%">
+							</div>
+						  </div>
+					</div>
+				</div>			
+		</div>
+		<!------------------------------------>
+		<!-- JavaScript external references -->
+		<!------------------------------------>
+		<!-- jQuery -->
+		<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+		<!-- Popper -->
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
+		<!-- Bootstrap -->
+		<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+		<!-- Vis.js -->
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js'></script>
+		<!-- Vega-Lite -->
+		<script src="https://cdn.jsdelivr.net/npm/vega@5.7.2"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.0-beta.10"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/vega-embed@5.1.3"></script>
+		<!-- infovis JS library -->
+		<script src='js/infovis.js'></script>
+	</body>
+</html>
