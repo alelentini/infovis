@@ -816,6 +816,7 @@ function createMapChart() {
     
     var vlSpec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+        "actions": false,
         "width": 1000,
         "height": 500,
         "autosize": "none",
