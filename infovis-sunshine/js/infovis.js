@@ -874,6 +874,7 @@ function createLineCharts() {
         }
         vlSpec = {
             "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+            "actions": false,
             "width": 500,
             "height": 80,
             "autosize": "none", 
